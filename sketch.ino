@@ -22,6 +22,7 @@ void setup(){
   Serial.begin(9660);
   matrix.begin();  //  initialise the module
   matrix.displayClear();  //  clear, if there is anything
+  Serial.println("Enter the text to display: ");
 }
 
 void loop(){
