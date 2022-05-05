@@ -13,7 +13,7 @@ const byte chip_select_pin = ;
 const byte max_devices = 4;
 
 // the data variable will hold the string input entered in the serial monitor.
-var data = ""
+var data = "";
 
 // creating an instance of MD_Parola class
 MD_Parola matrix = MD_Parola(MD_MAX72XX::PAROLA_HW, chip_select_pin, max_devices);
